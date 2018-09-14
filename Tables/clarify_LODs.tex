@@ -1,0 +1,22 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\caption[Project documents in which it is recommended to set the LODs.]{A sample of sources and the project documents in which they recommend setting the LODs.}
+\label{clarify_LODs}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+	 & CIC BIM Protocol & EIR$^1$ & BEP$^2$ & MIDP$^3$ & DRM$^4$ & Design Programme \\ \midrule
+	\specialcell{l}{PAS 1192-2 \\ \citep{PAS1192}} & \checkmark & \checkmark & \checkmark &  &  &  \\
+	 & & & & & & \\
+	\specialcell{l}{CIBSE DE2: EIR \\ \citep{DE2}} &  & \checkmark &  &  &  &  \\
+	 & & & & & & \\
+	\specialcell{l}{The B1M \\ \citep{B1M_LODs_explained}} &  &  & \checkmark & \checkmark &  &  \\
+	 & & & & & & \\
+	\specialcell{l}{RIBA Plan of Work 2013 \\ \citep{RIBAPlan}} &  &  &  &  & \checkmark & \checkmark \\ \bottomrule
+	\multicolumn{7}{l}{\textit{$^1$ Employer's Information Requirements \hspace{2em} $^2$ BIM Execution Plan}} \\
+	\multicolumn{7}{l}{\textit{$^3$ Master Information Delivery Plan \hspace{3em} $^4$ Design Responsibility Matrix}} \\
+\end{tabular}
+}
+\end{table}

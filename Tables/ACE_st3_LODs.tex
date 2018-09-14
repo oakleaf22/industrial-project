@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\caption[Typical example of the LODs to be provided for Stage 3.]{Typical example of the LODs to be provided for RIBA Plan of Work Stage 3 (table borrowed and slightly adapted from \cite{ACE2017}).}
+\label{ACE_st3_LODs}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+	 & \specialcell{l}{NBS BIM \\ Toolkit \\ LoD} & \specialcell{l}{NBS BIM \\ Toolkit \\ LoI} & \specialcell{l}{AIA LOD$^{\dagger}$} & Notes \\ \midrule
+	Primary equipment & 2 & 2 & LOD200 & \specialcell{l}{Major plant equipment \\ modelled as generic objects.} \\
+	 & & & & \\
+	Secondary equipment & N/A & N/A & Typical details only & \specialcell{l}{Typical details shown (e.g. \\ fan coil unit connections), \\ but not modelled in \\every space.} \\
+	 & & & & \\
+	Primary Distribution & 2 & 2 & LOD200 & \specialcell{l}{Primary distribution \\ routes modelled for all \\ services. Spatial allowance \\ proven for insulation, \\ accessories and fittings.} \\
+	 & & & & \\
+	Secondary Distribution & 1 & 1 & LOD100 & \specialcell{l}{Spatial allowance proven \\ for secondary pipework \\ and ductwork \\ distribution} \\
+	 & & & & \\
+	Terminal Units & 2 (typical only) & 2 (typical only) & LOD200 (typical only) & \specialcell{l}{Some terminal units \\ will be modelled e.g. \\ to indicate sample \\ room layouts} \\
+	 & & & & \\
+	Spaces & N/A & 3 & N/A & \specialcell{l}{Room environmental \\ data included in model; \\ treatment plans \\ produced from model} \\ \bottomrule
+	\multicolumn{5}{l}{\textit{$^{\dagger}$LOD here stands for ``Level of Development".}} \\
+\end{tabular}
+}
+\end{table}
