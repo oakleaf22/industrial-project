@@ -187,9 +187,9 @@
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{BEng Architectural Engineering} % Your degree name - this is currently used in the title page and abstract
+\degree{MEng Architectural Engineering} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{Stephanie \textsc{Eklöw}} % Your name - this is used in the title page and abstract
+\authors{Stephanie \textsc{Baird-Eklöw}} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
