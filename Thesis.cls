@@ -74,7 +74,7 @@
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
-\setmarginsrb  {  40mm}  % left margin
+\setmarginsrb  {  20mm}  % left margin
                         {  20mm}  % top margin
                         {  20mm}  % right margin
                         {  20mm}  % bottom margin
@@ -311,8 +311,8 @@
   \vfil\vfil\vfil\null
   \cleardoublepage
 }
-\addtocounter{secnumdepth}{1}
-\setcounter{tocdepth}{6}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{3}
 \newcounter{dummy}
 \newcommand\addtotoc[1]{
 \refstepcounter{dummy}
