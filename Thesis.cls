@@ -156,6 +156,7 @@
 \pdfstringdefDisableCommands{
    \let\\\space
 }
+\usepackage{rotating}
 \newcommand*{\supervisor}[1]{\def\supname{#1}}
 \newcommand*{\thesistitle}[1]{\def\ttitle{#1}}
 \newcommand*{\examiner}[1]{\def\examname{#1}}
