@@ -174,6 +174,21 @@
 \newcommand*{\subject}[1]{\def\subjectname{#1}}
 \newcommand*{\keywords}[1]{\def\keywordnames{#1}}
 
+
+
+%----------------------------------------------------------------------------------------
+%	COURSE CODES
+%	Fill in the lines below to update the thesis template
+%	If you wish to cite each of the variables defined below, look at the
+%	section above for the citation command e.g. \thermal{} below is
+%	defined as \tps above so you cite it as \tps
+%----------------------------------------------------------------------------------------
+
+\supervisor{Alex \textsc{Maclaren}} % You supervisor's name - this is used in the title page
+%-------------------------------------------------  
+\supervisor{Alex \textsc{Maclaren}} % You supervisor's name - this is used in the title page
+%-------------------------------------------------   
+
 %----------------------------------------------------------------------------------------
 %	DOCUMENT VARIABLES
 %	Fill in the lines below to update the thesis template
@@ -313,7 +328,7 @@
   \cleardoublepage
 }
 \setcounter{secnumdepth}{5}
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 \newcounter{dummy}
 \newcommand\addtotoc[1]{
 \refstepcounter{dummy}

@@ -26,7 +26,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[12pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
@@ -39,7 +39,7 @@
 %paragraph indentation
 \setlength{\parindent}{3em} 
 
-\setcounter{tocdepth}{1}
+%\setcounter{tocdepth}{1}
 
 \usepackage[square, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
@@ -77,6 +77,24 @@
 
 \usepackage{tikz}
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\usetikzlibrary{shapes,snakes}
+% This is a blue filled circle \markerone ;\\
+\newcommand{\markerone}{\raisebox{0.5pt}{\tikz{\node[draw,scale=1,circle,fill=black!20!blue](){};}}}
+% This is an inverted green triangle \markertwo ;\\
+\newcommand{\markertwo}{\raisebox{0pt}{\tikz{\node[draw,scale=0.3,regular polygon, regular polygon sides=3,fill=black!45!green,rotate=180](){};}}}
+
+% This is a red triangle \markerthree ;\\
+\newcommand{\markerthree}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.3,regular polygon, regular polygon sides=3,fill=black!10!red,rotate=0](){};}}}
+
+% This is an unfilled square \markerfour ;\\
+\newcommand{\markerfour}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.4,regular polygon, regular polygon sides=4,fill=none](){};}}}
+
+% This is a grey diamond \markerfive ;\\
+\newcommand{\markerfive}{\raisebox{0pt}{\tikz{\node[draw,scale=0.4,diamond,fill=black!10!gray](){};}}}
+
+% This is a black filled circle \markersix ;\\
+\newcommand{\markersix}{\raisebox{0.6pt}{\tikz{\node[draw,scale=0.3,circle,fill=black!100!](){};}}}
+
 
 \usepackage{soul}
 \newcommand{\hlc}[2][pink]{ {\sethlcolor{#1} \hl{#2}}}
@@ -183,6 +201,8 @@ H00165151
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
 %----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Set the line spacing to 1.3, this makes the following tables easier to read
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
 
