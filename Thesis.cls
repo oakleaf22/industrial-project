@@ -183,11 +183,304 @@
 %	section above for the citation command e.g. \thermal{} below is
 %	defined as \tps above so you cite it as \tps
 %----------------------------------------------------------------------------------------
-
-\supervisor{Alex \textsc{Maclaren}} % You supervisor's name - this is used in the title page
+\newcommand*{\ConstructionTechnologyOne}[1]{\def\ConTechOne{#1}}
+\ConstructionTechnologyOne{D37TA} % 
 %-------------------------------------------------  
-\supervisor{Alex \textsc{Maclaren}} % You supervisor's name - this is used in the title page
-%-------------------------------------------------   
+
+\newcommand*{\HistoryoftheBuiltEnvironment}[1]{\def\HBE{#1}}
+\HistoryoftheBuiltEnvironment{D17HH} % 
+%-------------------------------------------------
+
+\newcommand*{\IntroductiontoDesign}[1]{\def\ID{#1}}
+\IntroductiontoDesign{D17DE} % 
+%-------------------------------------------------
+
+\newcommand*{\MathematicsforEngineersandScientistsOne}[1]{\def\MESOne{#1}}
+\MathematicsforEngineersandScientistsOne{F17XA} % 
+%-------------------------------------------------
+
+\newcommand*{\BuildingServicesTechnology}[1]{\def\BST{#1}}
+\BuildingServicesTechnology{D18BT} % 
+%-------------------------------------------------
+
+\newcommand*{\MechanicsB}[1]{\def\MechB{#1}}
+\MechanicsB{D27MB} % 
+%-------------------------------------------------
+
+\newcommand*{\IntroductiontotheEnvironment}[1]{\def\IE{#1}}
+\IntroductiontotheEnvironment{D47IE} % 
+%-------------------------------------------------
+
+\newcommand*{\MathematicsforEngineersandScientistsTwo}[1]{\def\MESTwo{#1}}
+\MathematicsforEngineersandScientistsTwo{F17XB} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProjectA}[1]{\def\DPA{#1}}
+\DesignProjectA{D18PA} % 
+%-------------------------------------------------
+
+\newcommand*{\ConstructionTechnologyTwo}[1]{\def\ConTechTwo{#1}}
+\ConstructionTechnologyTwo{D38TA} % 
+%-------------------------------------------------
+
+\newcommand*{\AcousticsandArchitecturalDesign}[1]{\def\Acoustics{#1}}
+\AcousticsandArchitecturalDesign{D18AB} % 
+%-------------------------------------------------
+
+\newcommand*{\HydraulicsandHydrologyA}[1]{\def\HYD{#1}}
+\HydraulicsandHydrologyA{D28HA} % 
+%-------------------------------------------------
+
+\newcommand*{\EnvironmentandBehaviour}[1]{\def\EnvBeh{#1}}
+\EnvironmentandBehaviour{D17BG} % 
+%-------------------------------------------------
+
+\newcommand*{\StatisticsforScience}[1]{\def\Stats{#1}}
+\StatisticsforScience{F78SC} % 
+%-------------------------------------------------
+
+\newcommand*{\EnergyPrinciplesandApplications}[1]{\def\EPA{#1}}
+\EnergyPrinciplesandApplications{D18EP} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProjectB}[1]{\def\DPB{#1}}
+\DesignProjectB{D18DP} % 
+%-------------------------------------------------
+
+\newcommand*{\CriticalArchitecturalStudies}[1]{\def\CAS{#1}}
+\CriticalArchitecturalStudies{D19CX} % 
+%-------------------------------------------------
+
+\newcommand*{\ElectricalandLightingServicesforBuildings}[1]{\def\ELS{#1}}
+\ElectricalandLightingServicesforBuildings{D19EL} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignSoftwareApplications}[1]{\def\DSA{#1}}
+\DesignSoftwareApplications{D19SO} % 
+%-------------------------------------------------
+
+\newcommand*{\ProcurementandContracts}[1]{\def\PC{#1}}
+\ProcurementandContracts{D39PZ} % 
+%-------------------------------------------------
+
+\newcommand*{\EnergyandBuildings}[1]{\def\EnBldgs{#1}}
+\EnergyandBuildings{D19EB} % 
+%-------------------------------------------------
+
+\newcommand*{\ThermalPerformanceStudies}[1]{\def\TPS{#1}}
+\ThermalPerformanceStudies{D19TP} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignIssues}[1]{\def\DI{#1}}
+\DesignIssues{D19DI} % 
+%-------------------------------------------------
+
+\newcommand*{\FacilitiesManagementPrinciples}[1]{\def\FMP{#1}}
+\FacilitiesManagementPrinciples{D38FM} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProject}[1]{\def\PRJ{#1}}
+\DesignProject{D10YD/F} % 
+%-------------------------------------------------
+
+\newcommand*{\Dissertation}[1]{\def\DST{#1}}
+\Dissertation{D10ZA/B} % 
+%-------------------------------------------------
+
+\newcommand*{\LaboratoryProject}[1]{\def\LAB{#1}}
+\LaboratoryProject{D10LP} % 
+%-------------------------------------------------
+
+\newcommand*{\InclusiveandSafeEnvironments}[1]{\def\ISE{#1}}
+\InclusiveandSafeEnvironments{D10IE} % 
+%-------------------------------------------------
+
+\newcommand*{\SustainableandIntelligentBuildings}[1]{\def\SIB{#1}}
+\SustainableandIntelligentBuildings{D10IS} % 
+%-------------------------------------------------
+
+\newcommand*{\InnovationinConstructionPractice}[1]{\def\ICP{#1}}
+\InnovationinConstructionPractice{D30IC} % 
+%-------------------------------------------------
+
+\newcommand*{\IndustrialProject}[1]{\def\IP{#1}}
+\IndustrialProject{D11PJ} % 
+%-------------------------------------------------
+
+\newcommand*{\ClimateChangeSustainabilityandAdaptation}[1]{\def\CCSA{#1}}
+\ClimateChangeSustainabilityandAdaptation{D11CA} % 
+%-------------------------------------------------
+
+\newcommand*{\WaterSupplyandDrainageforBuildings}[1]{\def\WSD{#1}}
+\WaterSupplyandDrainageforBuildings{D21WC} % 
+%-------------------------------------------------
+
+\newcommand*{\ArchitecturalAcoustics}[1]{\def\AA{#1}}
+\ArchitecturalAcoustics{D11AF} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignofLowCarbonBuildings}[1]{\def\LCB{#1}}
+\DesignofLowCarbonBuildings{D11DC} % 
+%-------------------------------------------------
+
+\newcommand*{\Thermofluids}[1]{\def\Thermo{#1}}
+\Thermofluids{D11TH} % 
+%-------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	COURSE TITLES
+%	Fill in the lines below to update the thesis template
+%	If you wish to cite each of the variables defined below, look at the
+%	section above for the citation command e.g. \thermal{} below is
+%	defined as \tps above so you cite it as \tps
+%----------------------------------------------------------------------------------------
+\newcommand*{\ConstructionTechnologyOneTitle}[1]{\def\ConTechOneTitle{#1}}
+\ConstructionTechnologyOneTitle{\textit{Construction Technology 1}} % 
+%-------------------------------------------------  
+
+\newcommand*{\HistoryoftheBuiltEnvironmentTitle}[1]{\def\HBETitle{#1}}
+\HistoryoftheBuiltEnvironmentTitle{\textit{History of the Built Environment}} % 
+%-------------------------------------------------
+
+\newcommand*{\IntroductiontoDesignTitle}[1]{\def\IDTitle{#1}}
+\IntroductiontoDesignTitle{\textit{Introduction to Design}} % 
+%-------------------------------------------------
+
+\newcommand*{\MathematicsforEngineersandScientistsOneTitle}[1]{\def\MESOneTitle{#1}}
+\MathematicsforEngineersandScientistsOneTitle{\textit{Mathematics for Engineers and Scientists 1}} % 
+%-------------------------------------------------
+
+\newcommand*{\BuildingServicesTechnologyTitle}[1]{\def\BSTTitle{#1}}
+\BuildingServicesTechnologyTitle{\textit{Building Services Technology}} % 
+%-------------------------------------------------
+
+\newcommand*{\MechanicsBTitle}[1]{\def\MechBTitle{#1}}
+\MechanicsBTitle{\textit{Mechanics B}} % 
+%-------------------------------------------------
+
+\newcommand*{\IntroductiontotheEnvironmentTitle}[1]{\def\IETitle{#1}}
+\IntroductiontotheEnvironmentTitle{\textit{Introduction to the Environment}} % 
+%-------------------------------------------------
+
+\newcommand*{\MathematicsforEngineersandScientistsTwoTitle}[1]{\def\MESTwoTitle{#1}}
+\MathematicsforEngineersandScientistsTwoTitle{\textit{Mathematics for Engineers and Scientists 2}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProjectATitle}[1]{\def\DPATitle{#1}}
+\DesignProjectATitle{\textit{Design Project A}} % 
+%-------------------------------------------------
+
+\newcommand*{\ConstructionTechnologyTwoTitle}[1]{\def\ConTechTwoTitle{#1}}
+\ConstructionTechnologyTwoTitle{\textit{Construction Technology 2}} % 
+%-------------------------------------------------
+
+\newcommand*{\AcousticsandArchitecturalDesignTitle}[1]{\def\AcousticsTitle{#1}}
+\AcousticsandArchitecturalDesignTitle{\textit{Acoustics and Architectural Design}} % 
+%-------------------------------------------------
+
+\newcommand*{\HydraulicsandHydrologyATitle}[1]{\def\HYDTitle{#1}}
+\HydraulicsandHydrologyATitle{\textit{Hydraulics and Hydrology A}} % 
+%-------------------------------------------------
+
+\newcommand*{\EnvironmentandBehaviourTitle}[1]{\def\EnvBehTitle{#1}}
+\EnvironmentandBehaviourTitle{\textit{Environment and Behaviour}} % 
+%-------------------------------------------------
+
+\newcommand*{\StatisticsforScienceTitle}[1]{\def\StatsTitle{#1}}
+\StatisticsforScienceTitle{\textit{Statistics for Science}} % 
+%-------------------------------------------------
+
+\newcommand*{\EnergyPrinciplesandApplicationsTitle}[1]{\def\EPATitle{#1}}
+\EnergyPrinciplesandApplicationsTitle{\textit{Energy Principles and Applications}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProjectBTitle}[1]{\def\DPBTitle{#1}}
+\DesignProjectBTitle{\textit{Design Project B}} % 
+%-------------------------------------------------
+
+\newcommand*{\CriticalArchitecturalStudiesTitle}[1]{\def\CASTitle{#1}}
+\CriticalArchitecturalStudiesTitle{\textit{Critical Architectural Studies}} % 
+%-------------------------------------------------
+
+\newcommand*{\ElectricalandLightingServicesforBuildingsTitle}[1]{\def\ELSTitle{#1}}
+\ElectricalandLightingServicesforBuildingsTitle{\textit{Electrical and Lighting Services for Buildings}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignSoftwareApplicationsTitle}[1]{\def\DSATitle{#1}}
+\DesignSoftwareApplicationsTitle{\textit{Design Software Applications}} % 
+%-------------------------------------------------
+
+\newcommand*{\ProcurementandContractsTitle}[1]{\def\PCTitle{#1}}
+\ProcurementandContractsTitle{\textit{Procurement and Contracts}} % 
+%-------------------------------------------------
+
+\newcommand*{\EnergyandBuildingsTitle}[1]{\def\EnBldgsTitle{#1}}
+\EnergyandBuildingsTitle{\textit{Energy and Buildings}} % 
+%-------------------------------------------------
+
+\newcommand*{\ThermalPerformanceStudiesTitle}[1]{\def\TPSTitle{#1}}
+\ThermalPerformanceStudiesTitle{\textit{Thermal Performance Studies}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignIssuesTitle}[1]{\def\DITitle{#1}}
+\DesignIssuesTitle{\textit{Design Issues}} % 
+%-------------------------------------------------
+
+\newcommand*{\FacilitiesManagementPrinciplesTitle}[1]{\def\FMPTitle{#1}}
+\FacilitiesManagementPrinciplesTitle{\textit{Facilities Management Principles}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignProjectTitle}[1]{\def\PRJTitle{#1}}
+\DesignProjectTitle{\textit{Design Project}} % 
+%-------------------------------------------------
+
+\newcommand*{\DissertationTitle}[1]{\def\DSTTitle{#1}}
+\DissertationTitle{\textit{Dissertation}} % 
+%-------------------------------------------------
+
+\newcommand*{\LaboratoryProjectTitle}[1]{\def\LABTitle{#1}}
+\LaboratoryProjectTitle{\textit{Laboratory Project}} % 
+%-------------------------------------------------
+
+\newcommand*{\InclusiveandSafeEnvironmentsTitle}[1]{\def\ISETitle{#1}}
+\InclusiveandSafeEnvironmentsTitle{\textit{Inclusive and Safe Environments}} % 
+%-------------------------------------------------
+
+\newcommand*{\SustainableandIntelligentBuildingsTitle}[1]{\def\SIBTitle{#1}}
+\SustainableandIntelligentBuildingsTitle{\textit{Sustainable and Intelligent Buildings}} % 
+%-------------------------------------------------
+
+\newcommand*{\InnovationinConstructionPracticeTitle}[1]{\def\ICPTitle{#1}}
+\InnovationinConstructionPracticeTitle{\textit{Innovation in Construction Practice}} % 
+%-------------------------------------------------
+
+\newcommand*{\IndustrialProjectTitle}[1]{\def\IPTitle{#1}}
+\IndustrialProjectTitle{\textit{Industrial Project}} % 
+%-------------------------------------------------
+
+\newcommand*{\ClimateChangeSustainabilityandAdaptationTitle}[1]{\def\CCSATitle{#1}}
+\ClimateChangeSustainabilityandAdaptationTitle{\textit{Climate Change, Sustainability and Adaptation}} % 
+%-------------------------------------------------
+
+\newcommand*{\WaterSupplyandDrainageforBuildingsTitle}[1]{\def\WSDTitle{#1}}
+\WaterSupplyandDrainageforBuildingsTitle{\textit{Water Supply and Drainage for Buildings}} % 
+%-------------------------------------------------
+
+\newcommand*{\ArchitecturalAcousticsTitle}[1]{\def\AATitle{#1}}
+\ArchitecturalAcousticsTitle{\textit{Architectural Acoustics}} % 
+%-------------------------------------------------
+
+\newcommand*{\DesignofLowCarbonBuildingsTitle}[1]{\def\LCBTitle{#1}}
+\DesignofLowCarbonBuildingsTitle{\textit{Design of Low Carbon Buildings}} % 
+%-------------------------------------------------
+
+\newcommand*{\ThermofluidsTitle}[1]{\def\ThermoTitle{#1}}
+\ThermofluidsTitle{\textit{Thermofluids}} % 
+%-------------------------------------------------
+
+
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT VARIABLES
