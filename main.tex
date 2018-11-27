@@ -86,22 +86,12 @@
 \usepackage{tikz}
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 \usetikzlibrary{shapes,snakes}
-% This is a blue filled circle \markerone ;\\
-\newcommand{\markerone}{\raisebox{0.5pt}{\tikz{\node[draw,scale=1,circle,fill=black!20!blue](){};}}}
-% This is an inverted green triangle \markertwo ;\\
-\newcommand{\markertwo}{\raisebox{0pt}{\tikz{\node[draw,scale=0.3,regular polygon, regular polygon sides=3,fill=black!45!green,rotate=180](){};}}}
+% This is a green filled circle \master ;\\
+\newcommand{\master}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.75,circle,fill=black!20!green](){};}}}
 
-% This is a red triangle \markerthree ;\\
-\newcommand{\markerthree}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.3,regular polygon, regular polygon sides=3,fill=black!10!red,rotate=0](){};}}}
+% This is a yellow triangle \nomaster ;\\
+\newcommand{\nomaster}{\raisebox{0pt}{\tikz{\node[draw,scale=0.5,regular polygon, regular polygon sides=3,fill=black!10!yellow,rotate=0](){};}}}
 
-% This is an unfilled square \markerfour ;\\
-\newcommand{\markerfour}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.4,regular polygon, regular polygon sides=4,fill=none](){};}}}
-
-% This is a grey diamond \markerfive ;\\
-\newcommand{\markerfive}{\raisebox{0pt}{\tikz{\node[draw,scale=0.4,diamond,fill=black!10!gray](){};}}}
-
-% This is a black filled circle \markersix ;\\
-\newcommand{\markersix}{\raisebox{0.6pt}{\tikz{\node[draw,scale=0.3,circle,fill=black!100!](){};}}}
 
 
 \usepackage{soul}
