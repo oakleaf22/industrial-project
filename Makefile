@@ -5,16 +5,10 @@ CHAPTER_DIR := Chapters/
 
 SRC := main.tex \
 			 $(CHAPTER_DIR)01-intro.tex \
-			 $(CHAPTER_DIR)02-lit_rev.tex \
-			 $(CHAPTER_DIR)03-scoping.tex \
-			 $(CHAPTER_DIR)04-aim.tex \
-			 $(CHAPTER_DIR)05-methodology.tex \
-			 $(CHAPTER_DIR)06-communication.tex \
-			 $(CHAPTER_DIR)07-tools.tex \
-			 $(CHAPTER_DIR)08-prescription.tex \
-			 $(CHAPTER_DIR)09-real_world.tex \
-			 $(CHAPTER_DIR)10-discussion.tex \
-			 $(CHAPTER_DIR)11-ccl.tex \
+			 $(CHAPTER_DIR)02-work_exp.tex \
+			 $(CHAPTER_DIR)03-skills_analysis.tex \
+			 $(CHAPTER_DIR)04-personal_reflection.tex \
+			 $(CHAPTER_DIR)05-ccl.tex \
        Bibliography.bib
 
 main.pdf: $(SRC)
